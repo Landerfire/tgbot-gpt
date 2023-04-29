@@ -1,6 +1,6 @@
 import { Telegraf, session, type Context } from 'telegraf';
 import { message } from 'telegraf/filters';
-import { code, spoiler } from 'telegraf/format';
+import { code } from 'telegraf/format';
 import config from 'config';
 import { ogg } from './ogg.js';
 import { openai } from './openai.js';

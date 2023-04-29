@@ -3,6 +3,7 @@
 
 /node_modules
 /dist
+/voices/**.mp3
 
 config/default.json
 config/production.json

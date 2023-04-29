@@ -5,7 +5,7 @@
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
-		"build": "tsc -b",
+		"build": "tsc -p .",
 		"start": "npm run build && cross-env NODE_ENV=production node ./dist/app.js",
 		"start:dev": "cross-env NODE_ENV=development ts-node ./src/app.ts",
 		"dev": "cross-env NODE_ENV=development nodemon ./src/app.ts"
